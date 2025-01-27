@@ -1,7 +1,7 @@
 <?php
 $smsstatus="Disabled";
 $smsapi = "sdfjakjfjsldfhsdkfhgi";
-$senderid = "AGRIBUZ";
+$senderid = "Shombhar";
 /*
 customer purchase request
 farmer approval for request

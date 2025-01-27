@@ -1469,3 +1469,29 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+/* Hover Effect for Image */
+img:hover {
+  transform: scale(1.1); /* Slight zoom effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth reset */
+  border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+/* Existing button styling */
+button, .btn {
+  border-radius: 20px; /* Adjust for more rounded corners */
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+/* Hover effect */
+button:hover, .btn:hover {
+  background-color: #4be7c5; /* Change to your desired hover color */
+  color: #fff; /* Change text color on hover */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Optional shadow effect */
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
